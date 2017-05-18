@@ -7,6 +7,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -517,4 +518,16 @@ h6,
 #form1-1 B {
   font-size: 18px;
   color: #f1dfde;
+}
+#slider-8 P {
+  font-size: 32px;
+  text-align: center;
+  color: #20eadb;
+  font-family: 'Lora', serif;
+}
+#slider-8 H2 {
+  text-align: center;
+}
+#slider-8 I {
+  color: #f2e521;
 }
