@@ -7,17 +7,17 @@
       "title": "Mobirise 3",
       "styling": {
         "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
+        "secondaryColor": "#efefef",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "PT Sans Narrow",
+        "titleFont": "Lora",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
+        "isScrollToTopButton": true,
         "isRtl": false
       }
     },
@@ -144,7 +144,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -152,7 +152,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
+            "overlayOpacity": "0.5",
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": true,
@@ -160,7 +160,7 @@
             "showButtons": false
           },
           "title": "Iglesia Evangélica Luterana <br>Esperanza Viva-lcms",
-          "text": "Iglesia Luterana Esperanza Viva te invita a compartir todos los domingos a las 12:30PM nuestro servicio de alabanza y adoración.<br>Servicio con Santa Comunion.",
+          "text": "Iglesia Luterana Esperanza Viva te invita a compartir todos los domingos a las 12:30PM nuestro servicio de alabanza y adoración.<br>Servicio con Santa Comunión.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
         {
@@ -188,11 +188,14 @@
           "_styles": {
             ".card-block P": {
               "font-size": "16px"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
             }
           },
           "testimonial": [
             {
-              "text": "<p><b>Valoramos:</b></p><p><span style=\"line-height: 2;\">La aceptación incondicional, de que cada persona es importante para integrar una  familia  unida en paz y amor, por medio de Cristo Jesús, Nuestro Dios.</span></p><p>La libertad, de expresar y enseñar el Evangelio de manera que el Espíritu Santo se manifieste transformando y cambiando las vidas para Jesucristo, entendiendo que la salvación es personal.</p><p>La confianza en Dios que nos da la libertad para ejercer un liderato espiritual entre la familia, el vecindario, el trabajo, y la iglesia, siendo lideres en Jesucristo.</p><p>La oración, como punto de contacto con Dios por medio del Espíritu Santo para ejercer cualquier ministerio en Cristo Jesús</p><p><br></p>",
+              "text": "<p><b>Valoramos:</b></p><p><span style=\"line-height: 2;\"><b>La aceptación incondicional, de que cada persona es importante para integrar una  familia  unida en paz y amor, por medio de Cristo Jesús, Nuestro Dios.</b></span></p><p><b>La libertad, de expresar y enseñar el Evangelio de manera que el Espíritu Santo se manifieste transformando y cambiando las vidas para Jesucristo, entendiendo que la salvación es personal.</b></p><p><b>La confianza en Dios que nos da la libertad para ejercer un liderato espiritual entre la familia, el vecindario, el trabajo, y la iglesia, siendo lideres en Jesucristo.</b></p><p><b>La oración, como punto de contacto con Dios por medio del Espíritu Santo para ejercer cualquier ministerio en Cristo Jesús.</b></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/logo-123x160.png",
@@ -210,7 +213,7 @@
               "authorBio": "Espranza Viva"
             },
             {
-              "text": "<p><b><u>Nuestro Propósito...</u></b></p><p>La Congregación “Esperanza Viva” se establece en unión con el propósito de Glorificar a Dios ampliamente ejerciendo la Gran Comisión del poder de Cristo Jesús.&nbsp;</p><p>Mateo 28:19-20&nbsp;</p>",
+              "text": "<p><b><u>Nuestro Propósito...</u></b></p><p><b>La Congregación “Esperanza Viva” se establece en unión con el propósito de Glorificar a Dios ampliamente ejerciendo la Gran Comisión del poder de Cristo Jesús.&nbsp;</b></p><p><b>Mateo 28:19-20&nbsp;</b></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/ev-160x120.png",
@@ -228,7 +231,7 @@
               "authorBio": "User"
             },
             {
-              "text": "<p><b>Deseamos Servirle</b></p><p><span style=\"line-height: 2;\">El pastor, y diaconisa de la iglesia Esperanza Viva le damos la bienvenida.</span><br></p><p>Su presencia nos complace grandemente.  Ustedes son nuestra alegría y respuesta a las oraciones.</p><p><br></p><p>La Iglesia Esperanza Viva enseña y comparte claramente el evangelio de Jesucristo a la luz de la Santa Biblia, practicando los sacramentos del Bautismo y Santa Cena.</p><p><br></p><p>¡Usted tiene necesidad de Dios!&nbsp;</p><p>Haga una  decisión correcta en su vida. Sea parte de esta nueva familia.</p><p><br></p><p>Esperanza Viva.</p><p><br></p>",
+              "text": "<p><b>Deseamos Servirle</b></p><p><b><span style=\"line-height: 2;\">El pastor, y diaconisa de la iglesia Esperanza Viva le damos la bienvenida.</span></b></p><p><b style=\"line-height: 2;\">Su presencia nos complace grandemente.  Ustedes son nuestra alegría y respuesta a las oraciones.</b></p><p><b style=\"line-height: 2;\">La Iglesia Esperanza Viva enseña y comparte claramente el evangelio de Jesucristo a la luz de la Santa Biblia, practicando los sacramentos del Bautismo y Santa Cena.</b><br></p><p><b style=\"line-height: 2;\">¡Usted tiene necesidad de Dios!&nbsp;</b><br></p><p><b>Haga una  decisión correcta en su vida. Sea parte de esta nueva familia.</b></p><p><b style=\"line-height: 2;\">Esperanza Viva.</b></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/imag0402-90x160.jpg",
@@ -248,7 +251,7 @@
           ],
           "_anchor": "testimonials1-0",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "2",
             "paddingBottom": 3,
             "count": 3,
             "showImages": true,
@@ -257,7 +260,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#e7d9a2",
+            "bgColor": "#f22421",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -265,7 +268,7 @@
             "showTitle": true,
             "showSubtitle": true
           },
-          "title": "La Iglesia y Nosotros<br> Valoramos:",
+          "title": "La Iglesia y Nosotros<br>",
           "subtitle": ""
         },
         {
@@ -281,6 +284,9 @@
             },
             ".lead B": {
               "font-size": "14px"
+            },
+            ".lead P": {
+              "font-size": "12px"
             }
           },
           "_tags": [
@@ -307,8 +313,8 @@
             "showText": true,
             "showButton": false
           },
-          "title": "Devocion del mes",
-          "text": "<b>1 Pedro 1:3</b>",
+          "title": "Devoción del mes",
+          "text": "<p><b>1 Pedro 1:3</b><b>&nbsp;</b></p><p><b>Bendito sea el Dios y Padre de nuestro Señor Jesucristo, que por su gran misericordia y mediante la resurreción de Jesucristo nos ha hecho nacer de nuevo a una esperanza viva,</b></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
@@ -318,23 +324,23 @@
           "_name": "form1",
           "_styles": {
             ".form-control-label": {
-              "color": "#232323"
+              "color": "#f7da64"
             },
             ".mbr-section-title": {
-              "color": "#0aed4c"
+              "color": "#de0f0c"
             },
             "SMALL": {
               "color": "#0aed4c"
             },
             "B": {
-              "font-size": "18px",
-              "color": "#f1dfde"
+              "font-size": "21px",
+              "color": "#ffffff"
             }
           },
           "_anchor": "form1-1",
           "_params": {
-            "labelsColor": "#232323",
-            "paddingTop": 3,
+            "labelsColor": "#f7da64",
+            "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": true,
             "parallax": false,
@@ -342,12 +348,12 @@
             "bgColor": "#fff",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.1",
             "overlayColor": "#7e9b9f",
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "CONTACT FORM",
+          "title": "CONTÁCTENOS",
           "subtitle": "<b>Deseas contactarnos para matrimonio o conocer mas acerca de nuestra Iglesia</b>",
           "form": {
             "action": "esperanzaviva10@gmail.com",
@@ -385,7 +391,7 @@
               "color": "#fff"
             },
             "H3": {
-              "color": "#f3c649",
+              "color": "#f9c906",
               "text-align": "center"
             },
             "I": {
@@ -398,20 +404,20 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-b",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "50",
             "paddingTop": "3",
             "paddingBottom": "3",
             "parallax": true,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.6",
             "overlayColor": "#000",
             "inverse": true,
             "showTitle": true,
