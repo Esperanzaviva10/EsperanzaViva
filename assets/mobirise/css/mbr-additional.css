@@ -505,7 +505,7 @@ h6,
   font-size: 14px;
 }
 #msg-box8-2 .lead P {
-  font-size: 12px;
+  font-size: 15px;
 }
 #form1-1 .form-control-label {
   color: #f7da64;
@@ -530,4 +530,8 @@ h6,
 }
 #msg-box6-b I {
   text-align: center;
+}
+#slider2-d .mbr-section-title,
+#slider2-d .mbr-section-lead {
+  color: #fff;
 }

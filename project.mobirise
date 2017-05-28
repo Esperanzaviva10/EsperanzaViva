@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 12,
+    "uniqCompNum": 14,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -195,7 +195,7 @@
           },
           "testimonial": [
             {
-              "text": "<p><b>Valoramos:</b></p><p><span style=\"line-height: 2;\"><b>La aceptación incondicional, de que cada persona es importante para integrar una  familia  unida en paz y amor, por medio de Cristo Jesús, Nuestro Dios.</b></span></p><p><b>La libertad, de expresar y enseñar el Evangelio de manera que el Espíritu Santo se manifieste transformando y cambiando las vidas para Jesucristo, entendiendo que la salvación es personal.</b></p><p><b>La confianza en Dios que nos da la libertad para ejercer un liderato espiritual entre la familia, el vecindario, el trabajo, y la iglesia, siendo lideres en Jesucristo.</b></p><p><b>La oración, como punto de contacto con Dios por medio del Espíritu Santo para ejercer cualquier ministerio en Cristo Jesús.</b></p>",
+              "text": "<p><b><u>Valoramos:</u></b></p><p><span style=\"line-height: 2;\"><b>La aceptación incondicional, de que cada persona es importante para integrar una  familia  unida en paz y amor, por medio de Cristo Jesús, Nuestro Dios.</b></span></p><p><b>La libertad, de expresar y enseñar el Evangelio de manera que el Espíritu Santo se manifieste transformando y cambiando las vidas para Jesucristo, entendiendo que la salvación es personal.</b></p><p><b>La confianza en Dios que nos da la libertad para ejercer un liderato espiritual entre la familia, el vecindario, el trabajo, y la iglesia, siendo lideres en Jesucristo.</b></p><p><b>La oración, como punto de contacto con Dios por medio del Espíritu Santo para ejercer cualquier ministerio en Cristo Jesús.</b></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/logo-123x160.png",
@@ -231,7 +231,7 @@
               "authorBio": "User"
             },
             {
-              "text": "<p><b>Deseamos Servirle</b></p><p><b><span style=\"line-height: 2;\">El pastor, y diaconisa de la iglesia Esperanza Viva le damos la bienvenida.</span></b></p><p><b style=\"line-height: 2;\">Su presencia nos complace grandemente.  Ustedes son nuestra alegría y respuesta a las oraciones.</b></p><p><b style=\"line-height: 2;\">La Iglesia Esperanza Viva enseña y comparte claramente el evangelio de Jesucristo a la luz de la Santa Biblia, practicando los sacramentos del Bautismo y Santa Cena.</b><br></p><p><b style=\"line-height: 2;\">¡Usted tiene necesidad de Dios!&nbsp;</b><br></p><p><b>Haga una  decisión correcta en su vida. Sea parte de esta nueva familia.</b></p><p><b style=\"line-height: 2;\">Esperanza Viva.</b></p>",
+              "text": "<p><b><u>Deseamos Servirle</u></b></p><p><b><span style=\"line-height: 2;\">El pastor y &nbsp;la congregación de la &nbsp;iglesia Esperanza Viva le damos la bienvenida.</span></b></p><p><b style=\"line-height: 2;\">Su presencia nos complace grandemente.  Ustedes son nuestra alegría y respuesta a las oraciones.</b></p><p><b style=\"line-height: 2;\">La Iglesia Esperanza Viva enseña y comparte claramente el evangelio de Jesucristo a la luz de la Santa Biblia, practicando los sacramentos del Bautismo y Santa Cena.</b><br></p><p><b style=\"line-height: 2;\">¡Usted tiene necesidad de Dios!&nbsp;</b><br></p><p><b>Haga una  decisión correcta en su vida. Sea parte de esta nueva familia.</b></p><p><b style=\"line-height: 2;\">Esperanza Viva.</b></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/imag0402-90x160.jpg",
@@ -286,7 +286,7 @@
               "font-size": "14px"
             },
             ".lead P": {
-              "font-size": "12px"
+              "font-size": "15px"
             }
           },
           "_tags": [
@@ -295,8 +295,8 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-2",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "4",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
@@ -307,7 +307,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.3",
             "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
@@ -404,9 +404,9 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-b",
           "_params": {
-            "imageSize": "50",
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "imageSize": "57",
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -417,8 +417,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#28324e",
             "inverse": true,
             "showTitle": true,
             "showText": true,
@@ -428,7 +428,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-1400x787.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-2000x1125.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -448,7 +448,89 @@
           },
           "title": "Iglesia Luterana Esperanza Viva Celebra el Dia de las Madres. &nbsp;Dios las bendiga",
           "text": "<b><i>Predicamos a Cristo, sin el nada somos.</i></b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-lead": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "timeout": "5",
+            "paddingTop": "2",
+            "paddingBottom": "5",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.1",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Iglesia Luterana <br>Esperanza Viva",
+                "showText": false,
+                "text": ".",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-600x337.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.1",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-1400x787.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.1",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.1",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Iglesia Luterana <br>Esperanza Viva",
+                "showText": false,
+                "text": ".",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "bgColor": "#000000",
+            "showBullets": true
+          },
+          "_anchor": "slider2-d"
         }
       ]
     }
