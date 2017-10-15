@@ -489,12 +489,6 @@ h6,
   font-family: 'Lora', serif;
   text-align: center;
 }
-#testimonials1-0 .card-block P {
-  font-size: 16px;
-}
-#testimonials1-0 .mbr-section-title {
-  color: #efefef;
-}
 #msg-box8-2 .mbr-section-title,
 #msg-box8-2 p {
   color: #fff;
@@ -510,6 +504,15 @@ h6,
 #msg-box8-2 .lead P {
   font-size: 15px;
 }
+#testimonials1-0 .card-block P {
+  font-size: 16px;
+}
+#testimonials1-0 .mbr-section-title {
+  color: #efefef;
+}
+#content7-r P {
+  font-size: 14px;
+}
 #form1-1 .form-control-label {
   color: #f7da64;
 }
@@ -522,17 +525,6 @@ h6,
 #form1-1 B {
   font-size: 21px;
   color: #ffffff;
-}
-#msg-box6-b .mbr-section-title,
-#msg-box6-b .lead p {
-  color: #fff;
-}
-#msg-box6-b H3 {
-  color: #f9c906;
-  text-align: center;
-}
-#msg-box6-b I {
-  text-align: center;
 }
 
 
