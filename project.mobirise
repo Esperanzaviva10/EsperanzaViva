@@ -21,7 +21,9 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#003570"
+        "#003570",
+        "#003671",
+        "#00356e"
       ]
     },
     "versionFirst": "3.12.1",
@@ -155,19 +157,19 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": false,
+            "showArrow": true,
             "contentAlign": "center",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
+            "bgColorRadio": true,
+            "bgColor": "#00356e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
+            "overlayColor": "#003671",
             "overlayOpacity": "0.7"
           },
           "title": "Iglesia Evangélica Luterana <br>Esperanza Viva-lcms",
@@ -235,7 +237,12 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2016 Mobirise."
+          "text": "Copyright (c) 2016 Mobirise.",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_tags": [
@@ -475,7 +482,12 @@
             "Theme"
           ],
           "_name": "social-buttons1",
-          "_anchor": "social-buttons1-u"
+          "_anchor": "social-buttons1-u",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#003570"
+            }
+          }
         }
       ]
     },
@@ -636,7 +648,12 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2016 Mobirise."
+          "text": "Copyright (c) 2016 Mobirise.",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
