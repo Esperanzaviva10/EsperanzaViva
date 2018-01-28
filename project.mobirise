@@ -320,7 +320,7 @@
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f22421",
+            "bgColor": "#2969b0",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
