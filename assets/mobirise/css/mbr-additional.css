@@ -486,10 +486,19 @@ h6,
   color: #f45959;
 }
 #header1-1 .mbr-section-lead {
-  color: #ece8da;
+  color: #00356e;
   font-size: 30px;
   font-family: 'Lora', serif;
   text-align: center;
+}
+#footer1-2 P {
+  color: #ffffff;
+}
+#testimonials1-0 .card-block P {
+  font-size: 16px;
+}
+#testimonials1-0 .mbr-section-title {
+  color: #efefef;
 }
 #msg-box8-2 .mbr-section-title,
 #msg-box8-2 p {
@@ -505,15 +514,6 @@ h6,
 }
 #msg-box8-2 .lead P {
   font-size: 15px;
-}
-#footer1-2 P {
-  color: #ffffff;
-}
-#testimonials1-0 .card-block P {
-  font-size: 16px;
-}
-#testimonials1-0 .mbr-section-title {
-  color: #efefef;
 }
 #content7-r P {
   font-size: 14px;
@@ -540,6 +540,12 @@ h6,
 }
 #social-buttons1-u .mbr-section-title {
   color: #003570;
+}
+#header6-v .mbr-section-title {
+  color: #28262b;
+}
+#header6-v .mbr-section-text {
+  color: #565656;
 }
 
 

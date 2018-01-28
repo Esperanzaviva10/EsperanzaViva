@@ -27,10 +27,12 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 31,
+    "uniqCompNum": 32,
     "versionPublish": "4.6.3",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -145,7 +147,7 @@
               "color": "#f45959"
             },
             ".mbr-section-lead": {
-              "color": "#ece8da",
+              "color": "#00356e",
               "font-size": "30px",
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
@@ -159,68 +161,22 @@
             "showButtons": false,
             "showArrow": true,
             "contentAlign": "center",
-            "bgImageRadio": false,
-            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-721x1080.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#00356e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#003671",
+            "overlayColor": "#cccccc",
             "overlayOpacity": "0.7"
           },
           "title": "Iglesia Evangélica Luterana <br>Esperanza Viva-lcms",
           "text": "Iglesia Luterana Esperanza Viva te invita a compartir todos los domingos a las 12:30PM nuestro servicio de alabanza y adoración.<br>Servicio con Santa Comunión.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".lead": {
-              "color": "#ffffff",
-              "font-size": "12px",
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
-            },
-            ".lead B": {
-              "font-size": "14px"
-            },
-            ".lead P": {
-              "font-size": "15px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-2",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "2",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.6"
-          },
-          "title": "Devoción del mes",
-          "text": "<p><b>1 Pedro 1:3</b><b>&nbsp;</b></p><p><b>Bendito sea el Dios y Padre de nuestro Señor Jesucristo, que por su gran misericordia y mediante la resurreción de Jesucristo nos ha hecho nacer de nuevo a una esperanza viva,</b></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
           "_name": "footer1",
@@ -336,14 +292,60 @@
           "subtitle": ""
         },
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#ffffff",
+              "font-size": "12px",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".lead B": {
+              "font-size": "14px"
+            },
+            ".lead P": {
+              "font-size": "15px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-2",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "Devoción del mes",
+          "text": "<p><b>1 Pedro 1:3</b><b>&nbsp;</b></p><p><b>Bendito sea el Dios y Padre de nuestro Señor Jesucristo, que por su gran misericordia y mediante la resurreción de Jesucristo nos ha hecho nacer de nuevo a una esperanza viva,</b></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text1": "<p>Lectura: Mateo 5:11-12                  Domingo, 1 de octubre, 2017\n</p><p>Salmo 32\n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i>&nbsp;La medalla que espera por ti\n</i></b></p><p><b>Gócense y alégrense, porque en los cielos ya tienen ustedes un gran galardón; pues así persiguieron a los profetas que vivieron antes que ustedes.</b> Mateo 5:12\n</p><p>&nbsp;\n</p><p>&nbsp; &nbsp; Muchos vivimos luchando por alcanzar metas, ganar algo en la vida. En mi tiempo universitario, represente la universidad en un torneo de natación interuniversitario. Nos entrenábamos mucho para ganar esa competencia. Recuerdo un compañero que llevó a su familia para que le vieran competir. Y resultó que el amigo tan pronto se lanzó, se dislocó un hombro y tuvimos que lanzarnos a sacarlo de la piscina. Por eso el compañero no pudo competir y por ende no obtuvo medalla.\n</p><p>&nbsp; &nbsp; &nbsp;Nosotros nos ponemos tan tenso cuando estamos a punto de lograr algo que como dicen: “los nervios nos traicionan” y nos viene el fracaso. Nuestro salvador Jesucristo se preparó para alcanzar el premio que nosotros habremos de recibir por su obra meritoria – su muerte y resurrección-. Esa medalla que aguarda por nosotros la obtendremos por medio de la obediencia y manteniéndonos firme en nuestra fe y afirmando nuestra creencia.\n</p><p>&nbsp; &nbsp; Todos los cristianos ya tenemos nuestra medalla con nuestro nombre. Es la seguridad con que nuestro señor Jesucristo nos afirma en este versículo. Nuestras vidas deben ser reflejo de alegría, gozo de que nuestro premio está seguro. Jesús nos anuncia las bendiciones celestiales que recibiremos en la bondad de Dios. Por eso nuestro galardón más preciado es alcanzar la vida eterna y estar junto a nuestro creador y nuestro redentor, como lo anhelaban los profetas y los discípulos.\n</p><p>&nbsp; &nbsp; Cristo es nuestro redentor que libró la batalla contra el pecado, para asegurarnos a cada uno de nosotros nuestra medalla –el premio deseado – para recibir en los cielos. Él nos enseñó cómo podemos recibir esa medalla. Debemos permanecer unidos al Padre por medio de Jesucristo. Viviendo en amor al él y a nuestros prójimos, así seremos recompensados en los cielos.\n</p><p>\n</p><p><b><br></b></p><p><b>Señor, gracias por ganar este premio para nosotros. Ayúdanos a mantenernos firmes en la fe a fin de que alcancemos estar contigo en tu reino y disfrutar del galardón que nos espera. Amén.\n</b></p><p><br></p>",
-          "text2": "<p>Filipenses 3:12\t Domingo, 8 de Octubre, 2017 \n</p><p>Salmo 80:15-19\n</p><p>&nbsp;\n</p><p><b><i>No te confundas, falta para llegar.\n</i></b></p><p><b>No es que ya lo haya alcanzado, ni que ya sea perfecto, sino que sigo adelante, por ver si logro alcanzar aquello para lo cual fui también alcanzado por Cristo Jesús. </b>Filipenses 3:12</p><p><br></p><p>&nbsp; &nbsp; Ha escuchado usted una expresión que dice “se durmió en sus laureles”.  En los tiempos de exámenes de la secundaria, siempre nos reuníamos un grupo para estudiar.  El café era muy apreciado en esas largas horas de estudios.  Recuerdo un compañero que como tenía buenas calificaciones, no se esforzaba mucho.  Decía: “todo eso me lo sé así que puedo decir que pasé la materia”.  Esto nos preocupaba más al ver tan poco esfuerzo y tanta confianza  de que ya llegó.  Lo interesante era que éste joven era de los que sacaban las notas más bajas en el examen.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Es cierto que si estamos con Cristo quien contra nosotros, y eso nos da seguridad pero también no podemos desmayar puesto que nuestra obra no ha terminado. Dios nos escoge por medio del Espíritu Santo para trabajar en su vina.  Pero, debemos permanecer constantemente equipándonos para lograr la obra para la cual fuimos escogidos, y trabajar para y con el Señor.  Cualquiera que sea tu obra es la que te fue asignada.  Por lo tanto, debemos seguir firme en nuestra fe con la esperanza de que al ser partícipe del sufrimiento y la resurrección de Cristo también nosotros seremos alcanzados por Cristo Jesus. \n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;No podemos confiarnos de que por el hecho de hacer algunas obrar ya estamos anotados en la lista de los ganadores.  Debemos constantemente alimentar nuestra fe y permanecer en comunión con Dios Padre mediante nuestro Señor Jesucristo estaremos cada vez más cerca de lograr el propósito de Dios Padre.</p><p><br></p><p>\n</p><p>\n</p><p><b>Amado Padre, no permita que seamos distraídos en nuestros caminos, danos fuerza, firmeza y sensatez para comprender que estamos en el camino correcto para compartir como familia en tu reino.  Te lo pedimos por Cristo Jesus.  Amen\n</b></p><p><br></p>",
-          "text3": "<p>Filipenses 4:4-13\t Domingo, 15 de Octubre, 2017 \n</p><p>Salmo 23\t\n</p><p><b><i>¡Cristiano en todo terreno!\n</i></b></p><p><b>12 Sé vivir con limitaciones, y también sé tener abundancia; en todo y por todo estoy enseñado, tanto para estar satisfecho como para tener hambre, lo mismo para tener abundancia que para sufrir necesidad;</b>  Filipenses 4:12\n</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;En muy pocas ocasiones me he quedado frente al televisor viendo competencia de vehículos y sobre todo los de “Todo-Terreno”.  Sin embargo, cuando los veo me quedo impresionado con el proceso y la forma como preparan estos vehículos para enfrentar cualquier tipo de terreno.  Todo esto con el propósito de superar los obstáculos que se les presentan.  Es triste ver cuando después de tantos esfuerzos, algunos no son exitosos y tienen que salir del evento.\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Se imagina si nosotros nos dejamos vencer por las situaciones difíciles, ¿qué pasaría entonces? ¿No calificamos para ser cristianos?  Por supuesto que no es así.  Los retos que nosotros como cristianos enfrentamos no lo podemos vencer valiéndonos por nosotros mismos.  Nuestra naturaleza humana es nuestro peor enemigo y se encarga de hacernos caer tan pronto estemos enfrentando situaciones difíciles.  Nuestro Señor Jesucristo también enfrentó situaciones difíciles, pero Él las venció para librarnos de las garras del maligno.\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Debemos permanecer firme y estar constante aprendizaje sobre la palabra de Dios.  También aprendemos en los estudios bíblicos y en las predicaciones.  Estos medios nos dan a conocer que por medio de nuestro Señor tendremos fuerzas para enfrentar todo tipo de aflicción, y reafirmando la obra de Cristo nuestro salvador nos fortalecerá y no desmayaremos.  Siempre tendremos con nosotros el mejor aliento -la palabra de Dios- para fortalecer nuestra fe.  Esta es la preparación que nos permitirá vivir ante todo tipo de situación sin que nos arrebate el gozo de ser hijos de Dios. \n</p><p><b><br></b></p><p><b>Padre amado, ayúdanos para que en nuestras vidas podamos enfrentar con firmeza los retos de este mundo, no permita que nuestra fe desmaye ante situaciones difíciles, que tus medios de gracia siempre estén con nosotros.  Por tu hijo nuestro Señor y salvador.  Amen.\n</b></p><p><br></p>",
+          "text1": "<p>Lectura: Mateo 5.11-12</p><p>Salmo 32</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><i>&nbsp;La medalla que espera por ti\n</i></b></p><p><b>Gócense y alégrense, porque en los cielos ya tienen ustedes un gran galardón; pues así persiguieron a los profetas que vivieron antes que ustedes.</b> Mateo 5:12\n</p><p>&nbsp;\n</p><p>&nbsp; &nbsp; Muchos vivimos luchando por alcanzar metas, ganar algo en la vida. En mi tiempo universitario, represente la universidad en un torneo de natación interuniversitario. Nos entrenábamos mucho para ganar esa competencia. Recuerdo un compañero que llevó a su familia para que le vieran competir. Y resultó que el amigo tan pronto se lanzó, se dislocó un hombro y tuvimos que lanzarnos a sacarlo de la piscina. Por eso el compañero no pudo competir y por ende no obtuvo medalla.\n</p><p>&nbsp; &nbsp; &nbsp;Nosotros nos ponemos tan tenso cuando estamos a punto de lograr algo que como dicen: “los nervios nos traicionan” y nos viene el fracaso. Nuestro salvador Jesucristo se preparó para alcanzar el premio que nosotros habremos de recibir por su obra meritoria – su muerte y resurrección-. Esa medalla que aguarda por nosotros la obtendremos por medio de la obediencia y manteniéndonos firme en nuestra fe y afirmando nuestra creencia.\n</p><p>&nbsp; &nbsp; Todos los cristianos ya tenemos nuestra medalla con nuestro nombre. Es la seguridad con que nuestro señor Jesucristo nos afirma en este versículo. Nuestras vidas deben ser reflejo de alegría, gozo de que nuestro premio está seguro. Jesús nos anuncia las bendiciones celestiales que recibiremos en la bondad de Dios. Por eso nuestro galardón más preciado es alcanzar la vida eterna y estar junto a nuestro creador y nuestro redentor, como lo anhelaban los profetas y los discípulos.\n</p><p>&nbsp; &nbsp; Cristo es nuestro redentor que libró la batalla contra el pecado, para asegurarnos a cada uno de nosotros nuestra medalla –el premio deseado – para recibir en los cielos. Él nos enseñó cómo podemos recibir esa medalla. Debemos permanecer unidos al Padre por medio de Jesucristo. Viviendo en amor al él y a nuestros prójimos, así seremos recompensados en los cielos.\n</p><p>\n</p><p><b><br></b></p><p><b>Señor, gracias por ganar este premio para nosotros. Ayúdanos a mantenernos firmes en la fe a fin de que alcancemos estar contigo en tu reino y disfrutar del galardón que nos espera. Amén.\n</b></p><p><br></p>",
+          "text2": "<p>Filipenses 3.12&nbsp;</p><p>Salmo 80:15-19\n</p><p>&nbsp;\n</p><p><b><i>No te confundas, falta para llegar.\n</i></b></p><p><b>No es que ya lo haya alcanzado, ni que ya sea perfecto, sino que sigo adelante, por ver si logro alcanzar aquello para lo cual fui también alcanzado por Cristo Jesús. </b>Filipenses 3:12</p><p><br></p><p>&nbsp; &nbsp; Ha escuchado usted una expresión que dice “se durmió en sus laureles”.  En los tiempos de exámenes de la secundaria, siempre nos reuníamos un grupo para estudiar.  El café era muy apreciado en esas largas horas de estudios.  Recuerdo un compañero que como tenía buenas calificaciones, no se esforzaba mucho.  Decía: “todo eso me lo sé así que puedo decir que pasé la materia”.  Esto nos preocupaba más al ver tan poco esfuerzo y tanta confianza  de que ya llegó.  Lo interesante era que éste joven era de los que sacaban las notas más bajas en el examen.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Es cierto que si estamos con Cristo quien contra nosotros, y eso nos da seguridad pero también no podemos desmayar puesto que nuestra obra no ha terminado. Dios nos escoge por medio del Espíritu Santo para trabajar en su vina.  Pero, debemos permanecer constantemente equipándonos para lograr la obra para la cual fuimos escogidos, y trabajar para y con el Señor.  Cualquiera que sea tu obra es la que te fue asignada.  Por lo tanto, debemos seguir firme en nuestra fe con la esperanza de que al ser partícipe del sufrimiento y la resurrección de Cristo también nosotros seremos alcanzados por Cristo Jesus. \n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;No podemos confiarnos de que por el hecho de hacer algunas obrar ya estamos anotados en la lista de los ganadores.  Debemos constantemente alimentar nuestra fe y permanecer en comunión con Dios Padre mediante nuestro Señor Jesucristo estaremos cada vez más cerca de lograr el propósito de Dios Padre.</p><p><br></p><p>\n</p><p>\n</p><p><b>Amado Padre, no permita que seamos distraídos en nuestros caminos, danos fuerza, firmeza y sensatez para comprender que estamos en el camino correcto para compartir como familia en tu reino.  Te lo pedimos por Cristo Jesus.  Amen\n</b></p><p><br></p>",
+          "text3": "<p>Filipenses 4.4-13&nbsp;</p><p>Salmo 23\t\n</p><p><b><i>¡Cristiano en todo terreno!\n</i></b></p><p><b>12 Sé vivir con limitaciones, y también sé tener abundancia; en todo y por todo estoy enseñado, tanto para estar satisfecho como para tener hambre, lo mismo para tener abundancia que para sufrir necesidad;</b>  Filipenses 4:12\n</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;En muy pocas ocasiones me he quedado frente al televisor viendo competencia de vehículos y sobre todo los de “Todo-Terreno”.  Sin embargo, cuando los veo me quedo impresionado con el proceso y la forma como preparan estos vehículos para enfrentar cualquier tipo de terreno.  Todo esto con el propósito de superar los obstáculos que se les presentan.  Es triste ver cuando después de tantos esfuerzos, algunos no son exitosos y tienen que salir del evento.\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Se imagina si nosotros nos dejamos vencer por las situaciones difíciles, ¿qué pasaría entonces? ¿No calificamos para ser cristianos?  Por supuesto que no es así.  Los retos que nosotros como cristianos enfrentamos no lo podemos vencer valiéndonos por nosotros mismos.  Nuestra naturaleza humana es nuestro peor enemigo y se encarga de hacernos caer tan pronto estemos enfrentando situaciones difíciles.  Nuestro Señor Jesucristo también enfrentó situaciones difíciles, pero Él las venció para librarnos de las garras del maligno.\n</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Debemos permanecer firme y estar constante aprendizaje sobre la palabra de Dios.  También aprendemos en los estudios bíblicos y en las predicaciones.  Estos medios nos dan a conocer que por medio de nuestro Señor tendremos fuerzas para enfrentar todo tipo de aflicción, y reafirmando la obra de Cristo nuestro salvador nos fortalecerá y no desmayaremos.  Siempre tendremos con nosotros el mejor aliento -la palabra de Dios- para fortalecer nuestra fe.  Esta es la preparación que nos permitirá vivir ante todo tipo de situación sin que nos arrebate el gozo de ser hijos de Dios. \n</p><p><b><br></b></p><p><b>Padre amado, ayúdanos para que en nuestras vidas podamos enfrentar con firmeza los retos de este mundo, no permita que nuestra fe desmaye ante situaciones difíciles, que tus medios de gracia siempre estén con nosotros.  Por tu hijo nuestro Señor y salvador.  Amen.\n</b></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -488,6 +490,63 @@
               "color": "#003570"
             }
           }
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-810x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ccc",
+            "overlayOpacity": "0.9"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/_2zLwa9kPUQ",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Acerca de Esperanza Viva Iglesia Luterana-lcms",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-v"
         }
       ]
     },
