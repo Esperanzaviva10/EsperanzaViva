@@ -28,7 +28,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 32,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.6.3",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -106,6 +106,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#00a885",
             "fontSize": "1.4",
             "fontName": {
@@ -114,13 +120,7 @@
               "css": "'Lora', serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -156,23 +156,23 @@
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-721x1080.jpg",
-            "bgColor": "#00356e",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#00356e",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
             "overlayColor": "#cccccc",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.7"
           },
           "title": "Iglesia Evangélica Luterana <br>Esperanza Viva-lcms",
           "text": "Iglesia Luterana Esperanza Viva te invita a compartir todos los domingos a las 12:30PM nuestro servicio de alabanza y adoración.<br>Servicio con Santa Comunión.",
@@ -190,13 +190,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#003570",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#003570",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -271,22 +271,22 @@
           ],
           "_anchor": "testimonials1-0",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 3,
-            "count": 3,
+            "showTitle": true,
+            "showSubtitle": true,
             "showImages": true,
             "showName": false,
             "showBio": false,
+            "count": 3,
+            "paddingTop": "2",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#2969b0",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2969b0",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
+            "overlayOpacity": 0.5
           },
           "title": "La Iglesia y Nosotros<br>",
           "subtitle": ""
@@ -315,23 +315,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-2",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": "2",
             "paddingBottom": "4",
-            "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "file:///C:/Program%20Files%20(x86)/Mobirise4/resources/app.asar/web/app/builder/../../app/themes/mobirise3/components/_images/desert.jpg",
-            "bgColor": "#F2F2F2",
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
             "overlayColor": "#000000",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": "0.6"
           },
           "title": "Devoción del mes",
           "text": "<p><b>1 Pedro 1:3</b><b>&nbsp;</b></p><p><b>Bendito sea el Dios y Padre de nuestro Señor Jesucristo, que por su gran misericordia y mediante la resurreción de Jesucristo nos ha hecho nacer de nuevo a una esperanza viva,</b></p>",
@@ -381,19 +381,19 @@
           },
           "_anchor": "form1-1",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#ffffff",
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": true,
-            "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/prayer-box-2000x1500.png",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": "0.1",
             "overlayColor": "#7e9b9f",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": "0.1"
           },
           "title": "CONTÁCTENOS",
           "subtitle": "<b>Deseas contactarnos para matrimonio o conocer mas acerca de nuestra Iglesia</b>",
@@ -444,13 +444,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#003570",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#003570",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
             "googleMap": {
               "address": "2600 North Dean Road Orlando, FL 32817",
               "placeId": "ChIJbXnnpq5o54gRi5kTToDQFUc",
@@ -476,13 +476,13 @@
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
+            "overlayOpacity": 0.5,
             "facebook": true,
             "twitter": false,
             "google": true,
@@ -507,24 +507,24 @@
           "_name": "header6",
           "_anchor": "header6-v",
           "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-810x1080.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.9",
-            "overlayColor": "#ccc",
-            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-810x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ccc",
+            "overlayOpacity": "0.7"
           },
           "media": {
             "image": {
@@ -620,6 +620,12 @@
           "_name": "menu",
           "_anchor": "menu-g",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
             "bgColor": "#00a885",
             "fontSize": "1.4",
             "fontName": {
@@ -628,13 +634,7 @@
               "css": "'Lora', serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -670,23 +670,23 @@
           },
           "_anchor": "header1-h",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/la-promesa-del-espiritu-2000x1336.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.5"
           },
           "title": "Iglesia Evangélica Luterana <br>Esperanza Viva-lcms",
           "text": "<br><br>Iglesia Luterana Esperanza Viva te invita a compartir todos los domingos a las 12:30PM nuestro servicio de alabanza y adoración.<br>Servicio con Santa Comunión.<br>En nuestra iglesia predicamos a Cristo \"Cristocentrico\" &nbsp;<br>\"Nada somos sin Cristo\"",
@@ -704,13 +704,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#003570",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#003570",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -744,23 +744,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-k",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": "2",
             "paddingBottom": "4",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1330.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": "0.3"
           },
           "title": "Una Esperanza Viva",
           "text": "<p><b>1 Pedro 1:3</b><b>&nbsp;</b></p><p><b>Bendito sea el Dios y Padre de nuestro Señor Jesucristo, que por su gran misericordia y mediante la resurreción de Jesucristo nos ha hecho nacer de nuevo a una esperanza viva,</b></p>",
@@ -786,25 +786,25 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-m",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "57",
             "paddingTop": "4",
             "paddingBottom": "4",
-            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/liturgia02-2000x1500.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
             "overlayColor": "#28324e",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.3"
           },
           "media": {
             "image": {
