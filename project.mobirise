@@ -20,11 +20,15 @@
         "isScrollToTopButton": true,
         "isRtl": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#003570"
+      ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 28,
-    "versionPublish": "4.3.4"
+    "uniqCompNum": 31,
+    "versionPublish": "4.6.3",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -226,7 +230,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#323232",
+            "bgColor": "#003570",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
@@ -351,24 +355,26 @@
           "_name": "form1",
           "_styles": {
             ".form-control-label": {
-              "color": "#f7da64"
+              "color": "#ffffff"
             },
             ".mbr-section-title": {
-              "color": "#de0f0c"
+              "color": "#ffffff"
             },
             "SMALL": {
               "color": "#0aed4c"
             },
             "B": {
               "font-size": "21px",
-              "color": "#ffffff"
+              "color": "#000000",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
             }
           },
           "_anchor": "form1-1",
           "_params": {
             "showTitle": true,
             "showSubTitle": true,
-            "labelsColor": "#f7da64",
+            "labelsColor": "#ffffff",
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": true,
@@ -410,6 +416,66 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#003570",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "2600 North Dean Road Orlando, FL 32817",
+              "placeId": "ChIJbXnnpq5o54gRi5kTToDQFUc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>22600 N. Dean Road<br>Orlando, FL 32817<br><br><br>\n<strong>Contacts</strong><br>\nEmail: esperanzaviva10@gmail.com<br>\nPhone: +1 (407) 593-2770 (321) 278 4612<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><i><b>Contact us</b>&nbsp;</i></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-t",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            },
+            "STRONG": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": true,
+            "twitter": false,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-u"
         }
       ]
     },
@@ -565,7 +631,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#323232",
+            "bgColor": "#003570",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
