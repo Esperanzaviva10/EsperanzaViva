@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "CultoCristiano.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -686,9 +686,9 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": "0.5"
+            "overlayOpacity": "0.6"
           },
-          "title": "Iglesia Evangélica Luterana <br>Esperanza Viva-lcms",
+          "title": "Iglesia Evangélica Luterana <br>Esperanza Viva(lcms)",
           "text": "<br><br>Iglesia Luterana Esperanza Viva te invita a compartir todos los domingos a las 12:30PM nuestro servicio de alabanza y adoración.<br>Servicio con Santa Comunión.<br>En nuestra iglesia predicamos a Cristo \"Cristocentrico\" &nbsp;<br>\"Nada somos sin Cristo\"",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
