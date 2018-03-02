@@ -547,6 +547,10 @@ h6,
 #header6-v .mbr-section-text {
   color: #565656;
 }
+#slider2-x .mbr-section-title,
+#slider2-x .mbr-section-lead {
+  color: #fff;
+}
 
 
 
