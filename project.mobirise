@@ -559,8 +559,8 @@
             "showBullets": true,
             "bgColor": "#fff",
             "timeout": "6",
-            "paddingTop": "4",
-            "paddingBottom": "4",
+            "paddingTop": "7",
+            "paddingBottom": "7",
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/img-817-2000x1500.jpg",
@@ -577,8 +577,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-702-421x422.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-703-421x422.jpg",
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -593,7 +593,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-2000x1125.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -606,7 +606,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/dia-de-las-madres-2017-600x337.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-19-2000x2667.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -617,21 +617,8 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-18-2000x2667.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "BOOTSTRAP SLIDER",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.1"
               }
             ]
           },
